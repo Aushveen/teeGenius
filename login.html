@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TeeGenius Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="nav">
+        <img src="images/logo.png" alt="TeeGenius Management System">
+        <h4><a href="index.html" class="nav-links">HOME</a></h4>
+        <h4><a href="login.html" class="nav-links">LOGIN</a></h4>
+        <h4><a href="signup.html" class="nav-links">SIGN UP</a></h4>
+        <h4><a href="#" class="nav-links">REGISTER YOUR GOLF COURSE</a></h4>
+        <h4><a href="contact.html" class="nav-links">CONTACT</a></h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+    <video autoplay muted loop src="https://sidcupfamilygolf.com/wp-content/uploads/2023/02/hero.mp4"></video>
+    <div id="main">
+        <div id="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-message"></p>
+        </div>
+    </div>
+    <footer>
+        <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg" alt="Dotted Lines">
+        <div id="footer-container">
+            <div id="footer-container-1">
+                <div id="footer-item-1">
+                    <img src="images/logo.png" alt="logo">
+                    <div id="footer-social-logos-container">
+                        <i class='bx bxl-facebook-square'></i>
+                        <i class='bx bxl-instagram-alt'></i>
+                        <i class='bx bxl-twitter' style='color:#ffffff'></i>
+                    </div>
+                </div>
+                <div id="footer-item-2">
+                    <h3><a href="#cards-container" class="nav-links">GOLF COURSES</a></h3>
+                    <h3><a href="login.html" class="nav-links">LOGIN</a></h3>
+                    <h3><a href="signup.html" class="nav-links">SIGN UP</a></h3>
+                </div>
+                <div id="footer-item-3">
+                    <h3><a href="register.html" class="nav-links">REGISTER YOUR GOLF COURSE</a></h3>
+                    <h3><a href="contact.html" class="nav-links">CONTACT US</a></h3>
+                </div>
+                <div id="footer-item-4">
+                    <p>107 S Indiana Ave<br>BLOOMINGTON, IN<br>47405</p>
+                    <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+                    <p>Email: <a href="mailto:info@teegenius.com">info@teegenius.com</a></p>
+                </div>
+            </div>
+            <div id="footer-container-2">
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
